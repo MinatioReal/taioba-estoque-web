@@ -1,0 +1,13 @@
+* text=auto
+*.java text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jar binary
+*.zip binary

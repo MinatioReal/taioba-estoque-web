@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.taiobas.web.EstoqueApiTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.161 s -- in com.taiobas.web.EstoqueApiTest

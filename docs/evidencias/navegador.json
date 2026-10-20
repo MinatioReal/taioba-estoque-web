@@ -1,0 +1,66 @@
+{
+  "data": "2026-10-20",
+  "checks": [
+    {
+      "teste": "Login administrador e catálogo",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Busca por nome",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Estado de busca sem resultados",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Filtro de produtos sem saldo",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Cadastro de fornecedor",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Produto novo começa zerado",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Entrada reflete no catálogo",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Saída acima do saldo mostra erro",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Saída válida atualiza saldo",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Edição preserva saldo",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Tela móvel sem rolagem horizontal",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Histórico inclui movimentações",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Auditor não vê ações de cadastro",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Auditor não vê ações de movimentação",
+      "resultado": "APROVADO"
+    },
+    {
+      "teste": "Sem erros JavaScript",
+      "resultado": "APROVADO"
+    }
+  ],
+  "errors": []
+}

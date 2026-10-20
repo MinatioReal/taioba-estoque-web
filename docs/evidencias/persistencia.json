@@ -1,0 +1,7 @@
+{
+  "data": "2026-10-20",
+  "teste": "Persistência após encerrar e reiniciar o JAR",
+  "resultado": "APROVADO",
+  "fornecedoresAntes": 2,
+  "fornecedoresDepois": 3
+}

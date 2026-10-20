@@ -1,0 +1,32 @@
+{
+  "origem": "GitHub Issues",
+  "issues": [
+    {
+      "number": 1,
+      "node_id": "I_kwDOVQ1f8M8AAAABYhw5Cw",
+      "title": "Execu??o local falha quando a porta padr?o 8080 est? ocupada",
+      "body": "## Reprodu??o\n1. Manter outro servi?o na porta 8080.\n2. Executar o JAR com a configura??o inicial.\n\n## Observado\nServidor encerra com Address already in use.\n\n## Esperado\nConfigura??o local compat?vel com o ambiente e possibilidade de escolher outra porta.\n\n## Corre??o\nPorta padr?o alterada para 8085; vari?vel PORT e argumento --server.port permitem escolher outra porta. README e INICIAR.bat atualizados. JAR executado e fluxo de estoque verificado em 8085.\n\n## Limite\nQualquer porta escolhida pode estar ocupada. Nesse caso, configurar outra porta; n?o encerrar processos de terceiros.",
+      "state": "closed",
+      "created_at": "2026-10-20T11:40:14Z",
+      "closed_at": "2026-10-20T11:40:14Z",
+      "html_url": "https://github.com/MinatioReal/taioba-estoque-web/issues/1",
+      "comments": []
+    },
+    {
+      "number": 2,
+      "node_id": "I_kwDOVQ1f8M8AAAABYhyEng",
+      "title": "Grava??o recente pode se perder ap?s encerramento abrupto do processo",
+      "body": "## Reprodu??o\nNo teste scripts/persistence-qa.py: iniciar o JAR, cadastrar fornecedor, finalizar o processo imediatamente e reiniciar no mesmo diret?rio.\n\n## Observado\nUma repeti??o falhou na contagem de fornecedores: o ?ltimo registro n?o apareceu ap?s rein?cio.\n\n## Esperado\nRegistro confirmado pela API persiste em disco.\n\n## Corre??o em valida??o\nAdicionar WRITE_DELAY=0 ? URL JDBC do H2 para sincronizar grava??o a cada commit. Recompilar e repetir teste com banco tempor?rio isolado.",
+      "state": "closed",
+      "created_at": "2026-10-20T11:41:45Z",
+      "closed_at": "2026-10-20T11:42:18Z",
+      "html_url": "https://github.com/MinatioReal/taioba-estoque-web/issues/2",
+      "comments": [
+        {
+          "body": "Corre??o verificada em 20/10/2026. mvn verify: 22 testes aprovados. scripts/persistence-qa.py: APROVADO, 2 fornecedores antes, 3 ap?s encerrar abruptamente e reiniciar o JAR. Configura??o WRITE_DELAY=0 inclu?da no application.properties.",
+          "created_at": "2026-10-20T11:42:18Z"
+        }
+      ]
+    }
+  ]
+}
