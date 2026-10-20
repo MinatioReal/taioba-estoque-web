@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/MinatioReal/taioba-estoque-web/issues/1",
   "numero": 1,
-  "correcao": "Porta padr?o 8085, configur?vel por PORT ou --server.port",
+  "correcao": "Porta padrão 8085, configurável por PORT ou --server.port",
   "estadoAntesDaExclusao": "closed",
   "estadoAtual": "excluida",
   "evidencia": "bugtracking-arquivado.json"

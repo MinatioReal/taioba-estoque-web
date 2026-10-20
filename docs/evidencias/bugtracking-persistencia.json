@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/MinatioReal/taioba-estoque-web/issues/2",
   "numero": 2,
-  "correcao": "WRITE_DELAY=0; rein?cio com grava??o imediatamente anterior verificado",
+  "correcao": "WRITE_DELAY=0; reinício com gravação imediatamente anterior verificado",
   "estadoAntesDaExclusao": "closed",
   "estadoAtual": "excluida",
   "evidencia": "bugtracking-arquivado.json"
